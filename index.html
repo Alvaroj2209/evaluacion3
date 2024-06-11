@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>prueba</title>
+    <link rel="stylesheet" href="assets/css/estilo1.css">
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
+    <header>
+        <img id="logo_xiaomi" src="assets/imagenes/Xiaomi_logo.png" alt="logoxiaomi">
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Sobre nosotros</a></li>
+                <li><a href="#seccion2">Xiaomi 12</a></li>
+                <li><a href="#seccion3">Nuestra cultura</a></li>
+                <li><a href="#seccion4">Celulares</a></li>
+                <li><a href="#seccion5">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="seccion1">
+        <h2>Sobre Xiaomi</h2>
+        <p>Xiaomi es una empresa de electrónica de consumo y fabricación inteligente cuyo núcleo son los teléfonos inteligentes y el hardware inteligente conectado a través de una plataforma de IoT.
+
+            Con nuestra visión de “Ser amigos de los usuarios y ser la mejor empresa para ellos”, Xiaomi continuamente busca innovar, brindar una experiencia del usuario de alta calidad y ofrecer la mejor eficiencia operativa. 
+            La empresa crea sin descanso productos increíbles con precios razonables para que todos los habitantes del mundo puedan disfrutar de una vida mejor gracias a la tecnología innovadora.
+            De acuerdo con Canalys, la participación de la empresa en el mercado en cuanto a envíos de teléfonos inteligentes se situó en el tercer puesto a nivel mundial en el segundo trimestre del 2022.
+        </p>
+    </section>
+    <section id="seccion2">
+        <h2>Xiaomi Series 12</h2>
+
+        <iframe id="video" src="https://www.youtube.com/embed/aR9LMFOmMF0?si=QsnjEn057EliXqMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
+    </section>
+    <section id="seccion3">
+    <h2>Nuestra cultura</h2>
+    <p>Nuestra cultura
+        "Sólo para fans": esa es nuestra idea. Nuestro equipo de Mi fans lidera cada paso del camino. De hecho, muchos empleados de Xiaomi fueron primero Mi fans,
+         antes de unirse al equipo. Como equipo, compartimos la incansable búsqueda de la perfección, refinando y mejorando constantemente nuestros productos para crear 
+         la mejor experiencia de usuario posible. También somos intrépidos al probar nuevas ideas y sobrepasar nuestros propios límites. Nuestra dedicación y convicción en la 
+         innovación, junto con el apoyo de Mi fans, son nuestras fuerzas impulsoras detrás de los productos únicos Mi.
+    </p>
+    </section>
+    <hr>
+    <section id="seccion4">
+        <div>
+        <img id="celu" src="assets/imagenes/redmi10.png" alt="redmi10">
+        <img id="celu" src="assets/imagenes/redmi11.png" alt="redmi11">
+        <img id="celu" src="assets/imagenes/redmi12.png" alt="redmi12">
+    </div>
+    </section>
+    <section id="seccion5">
+       
+       <hr>
+        <form id="formulario">
+            <h2>Contacto</h2>
+            <h3>interesado en dejar algun comentario, dejalo aqui abajo</h3>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" id="masculino" name="genero" required>
+            <input type="radio" id="femenino" name="genero" required>
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" placeholder="Ingresa tu ciudad" required>
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono" placeholder="Ingresa tu numero" required>
+            <label for="opcion">¿Has usado la marca anteriormente?</label>
+            <select name="opciones" id="opciones" required>
+                <option value="si">He utilizado la marca anteriormente</option>
+                <option value="no">No he utilizado la marca anteriormente</option>
+            </select>
+            <label for="comentario">Ingresa tu comentario:</label>
+            <textarea name="comentario" id="comentario" placeholder="Ingresa un comentario"></textarea>
+            <button id="btnEnvio">Enviar</button>
+        </form>
+
+
+        </section>
+        <footer> 
+            <img id="contacto_mail" src="assets/imagenes/mail-16.png" alt="contactomail"><p id="algo"> xiaomi_support@gmail.com</p>
+            
+            <a href="https://twitter.com/xiaomi?lang=es">
+                <img id="twitter" src="assets/imagenes/twitter-16.png" alt="logo_twitter">
+            </a>
+            <button id="btnContraste">Contraste</button>
+            <button id="btnTamanio">Tamaño</button>
+        </footer>
 </body>
 </html>

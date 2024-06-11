@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(255, 252, 250);
+}
+
+header {
+    background-color: rgb(32, 32, 32);
+    border-radius: 6px;
+    border-color: aliceblue;
+    border: 1px solid  gray;
+}
+
+footer {
+    background-color: rgb(32, 32, 32);
+    border-radius: 1px;
+    border-color: aliceblue;
+    border: 1px solid gray;
+    height: 50px;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 35px;
+}
+
+#video {
+    width: 400px;
+    height: 400px;
+    padding-left: 200px;
+}
+
+
+
+#tituloheader {
+    font-size: 30px;
+    margin: 0;
+    padding-top: 20px;
+    color: black;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+
+form {
+    font-family: inherit;
+    padding-bottom: 10px;
+    
+}
+
+input, label, #btnEnvio {
+    display: block;
+
+}
+
+
+#contraste, #tamanio {
+    margin-left: 30px;
+}
+
+#contacto_mail, #algo {
+    padding-left: 20px;
+    display: inline;
+    color:white;
+    padding-top: 10px;
+}
+
+#twitter {
+    padding-left: 20px;
+}
+
+#logo_xiaomi {
+    width: 200px;
+    padding-left: 320px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#celu {
+    display: inline;
+    width: 200px;
+    height: 200px;
+    padding-left: 50px;
+}
+
+h2 {
+    text-align: center;
+}
