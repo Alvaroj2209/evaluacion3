@@ -1,96 +1,103 @@
 body {
     background-color: rgb(255, 252, 250);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     background-color: rgb(32, 32, 32);
-    border-radius: 6px;
-    border-color: aliceblue;
-    border: 1px solid  gray;
-}
-
-footer {
-    background-color: rgb(32, 32, 32);
-    border-radius: 1px;
-    border-color: aliceblue;
-    border: 1px solid gray;
-    height: 50px;
-}
-h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-li {
-    display: inline;
-    margin: 35px;
-}
-
-#video {
-    width: 400px;
-    height: 400px;
-    padding-left: 200px;
+    padding: 20px 0;
 }
 
 
-
-#tituloheader {
-    font-size: 30px;
-    margin: 0;
-    padding-top: 20px;
-    color: black;
+#formulario {
+    background-color: rgb(255, 252, 250);
+    margin: 20px;
+    padding:20px;
+    border-radius: 5px;
 }
 
-h3 {
-    font-size: 12px;
+label{
+    display: block;
+    margin-bottom: 5px;
 }
 
+input, textarea, select {
+    border: 1px solid;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
 
-form {
-    font-family: inherit;
-    padding-bottom: 10px;
+table {
+    width: 100%;
+    border: 2px solid;
+}
+
+#btnRegistrar, #btnActualizar{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+#cuerpoTabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
     
 }
 
-input, label, #btnEnvio {
-    display: block;
-
-}
-
-
-#contraste, #tamanio {
-    margin-left: 30px;
-}
-
-#contacto_mail, #algo {
-    padding-left: 20px;
-    display: inline;
-    color:white;
-    padding-top: 10px;
-}
-
-#twitter {
-    padding-left: 20px;
-}
-
-#logo_xiaomi {
-    width: 200px;
-    padding-left: 320px;
-}
-
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+#cuerpoTabla th,
+#cuerpoTabla td {
+    border: 1px solid grey;
+    padding: 8px;
     text-align: center;
 }
 
-#celu {
-    display: inline;
-    width: 200px;
-    height: 200px;
-    padding-left: 50px;
+body button:hover{
+    background-color: gray;
 }
+
+
+.cabecera{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+}
+
+#logo_xiaomi{
+    width: 200px;
+}
+
+
 
 h2 {
     text-align: center;
+}
+
+
+#btnContraste, #btnAumentar, #btnDisminuir {
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+footer button:hover {
+    background-color: gray;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
 }
